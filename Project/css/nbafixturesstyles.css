@@ -1,0 +1,140 @@
+/* header */
+
+body {
+    margin: 0;
+}
+
+h1 {
+    background-color: black;
+    margin: 0;
+}
+
+img.headerimage {
+    margin-left: 20%;
+}
+
+
+/* searchbar */
+input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 9%;
+    margin-right: 10%;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+/* navbar */
+
+.navbar{
+    width: 100%;
+    font-family: Arial;
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    display: block;
+    padding: 5px;
+    
+}
+
+nav a:hover{
+    background-color: darkred;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li{
+    flex: 1 1 0;
+}
+
+ul li ul li{
+    list-style-type: none;
+    padding: 0;
+    display: none;
+    justify-content: space-around;
+    background-color: dimgray;
+}
+
+ul li:hover ul li {
+    display: block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+
+
+
+
+/* main part */
+table#t01 {
+    width: 60.5%; 
+    background-color: #f1f1c1;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+}
+
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#t01 th {
+    color: white;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 100%
+    
+}
+
+img.facebook {
+    height: 60px;
+}
+
+img.twitter {
+    height: 60px;
+}
+
+img.youtube {
+    height: 59px;
+}
+
+img.instagram {
+    height: 62px;
+}
